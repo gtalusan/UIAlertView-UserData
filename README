@@ -1,0 +1,9 @@
+An example implementation of associating arbitrary data with an Objective-C
+category.
+
+In other words, a simple work around for not being able to synthesize ivars in
+a category.
+
+This lets your delegate access information associated with the sender if your
+delegate has no business knowing about the internals of who originated the
+sender.
